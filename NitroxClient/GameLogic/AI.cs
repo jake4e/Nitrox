@@ -24,7 +24,8 @@ namespace NitroxClient.GameLogic
             if (newAction.GetType() == typeof(SwimToPoint))
             {
                 creatureAction = new SwimToPointAction(((SwimToPoint)newAction).Target);
-            }*/
+            }
+            */
 
             if (creatureAction != null)
             {

@@ -294,6 +294,7 @@
     <Compile Include="Communication\Packets\Processors\Abstract\AuthenticatedPacketProcessor.cs" />
     <Compile Include="Communication\Packets\Processors\Abstract\UnauthenticatedPacketProcessor.cs" />
     <Compile Include="Communication\Packets\Processors\CellVisibilityChangedProcessor.cs" />
+    <Compile Include="Communication\Packets\Processors\Creatures\CreatureMovementPacketProcessor.cs" />
     <Compile Include="Communication\Packets\Processors\FireDousedProcessor.cs" />
     <Compile Include="Communication\Packets\Processors\EscapePodRadioRepairProcessor.cs" />
     <Compile Include="Communication\Packets\Processors\EscapePodRepairProcessor.cs" />
@@ -353,6 +354,7 @@
     <Compile Include="ConsoleCommands\SayCommand.cs" />
     <Compile Include="ConsoleCommands\WhisperCommand.cs" />
     <Compile Include="Exceptions\DuplicateRegistrationException.cs" />
+    <Compile Include="GameLogic\Creatures\CreatureData.cs" />
     <Compile Include="GameLogic\Entities\Spawning\EntitySpawnPointFactory.cs" />
     <Compile Include="GameLogic\EscapePodData.cs" />
     <Compile Include="GameLogic\Unlockables\StoryGoalData.cs" />

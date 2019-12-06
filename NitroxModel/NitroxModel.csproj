@@ -255,6 +255,8 @@
   <ItemGroup>
     <Compile Include="Core\IAutoFacRegistrar.cs" />
     <Compile Include="Core\NitroxServiceLocator.cs" />
+    <Compile Include="DataStructures\GameLogic\Creatures\CreatureModel.cs" />
+    <Compile Include="DataStructures\GameLogic\Creatures\CreatureMovementData.cs" />
     <Compile Include="DataStructures\GameLogic\Entities\UwePrefab.cs" />
     <Compile Include="DataStructures\GameLogic\Entities\UwePrefabFactory.cs" />
     <Compile Include="DataStructures\GameLogic\Entities\UweWorldEntity.cs" />
@@ -292,6 +294,7 @@
     <Compile Include="Logger\InGameLogger.cs" />
     <Compile Include="Networking\NitroxDeliveryMethod.cs" />
     <Compile Include="Packets\BedEnter.cs" />
+    <Compile Include="Packets\Creatures\CreatureMovement.cs" />
     <Compile Include="Packets\EscapePodRadioRepair.cs" />
     <Compile Include="Packets\EscapePodRepair.cs" />
     <Compile Include="Packets\PlayerEquipmentAdded.cs" />
