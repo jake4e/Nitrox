@@ -19,7 +19,8 @@ namespace NitroxServer.Communication.Packets.Processors
             typeof(PlayerStats),
             typeof(PowerLevelChanged),
             typeof(VehicleColorChange),
-            typeof(StoryEventSend)
+            typeof(StoryEventSend),
+            typeof(CreatureMovement)
         };
 
         public DefaultServerPacketProcessor(PlayerManager playerManager)

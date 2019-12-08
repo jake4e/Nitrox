@@ -5,7 +5,7 @@ using System.Text;
 using NitroxModel.DataStructures.GameLogic.Creatures;
 using NitroxModel.Networking;
 
-namespace NitroxModel.Packets.Creatures
+namespace NitroxModel.Packets
 {
     [Serializable]
     public class CreatureMovement : Movement
